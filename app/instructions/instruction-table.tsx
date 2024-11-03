@@ -1,6 +1,13 @@
 "use client"
 import React from 'react'
 
+export interface Instruction {
+  syntax: string;
+  function: string;
+  description: string;
+  // 根据需要添加更多字段
+}
+
 import {
     ColumnDef,
     flexRender,
